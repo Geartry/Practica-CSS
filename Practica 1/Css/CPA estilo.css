@@ -1,0 +1,31 @@
+body{
+    background: darkseagreen;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    color: red;
+}
+
+h3{
+    color: darkred;
+}
+ul{
+    color: blue;
+}
+p{
+    color: blue;
+}
+b{
+    font-size: 5mm;
+}
+
+mark{
+    background-color: black;
+    color: white;
+}
+
+fl{
+    color: green;
+}
