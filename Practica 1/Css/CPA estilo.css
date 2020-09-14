@@ -11,8 +11,8 @@ h1{
 h3{
     color: darkred;
 }
-ul{
-    color: blue;
+ul > li{
+    color: green;
 }
 p{
     color: blue;
@@ -26,6 +26,10 @@ mark{
     color: white;
 }
 
-fl{
-    color: green;
+.color{
+    color: blue;
+}
+
+.parrafo{
+    color: blue;
 }

@@ -10,3 +10,52 @@ section{
     height: 100vh;
     box-sizing: border-box; /*se le da forma*/
 }
+
+.sec1{
+    background: url("./../img/colibri.jpg"); /*se utiliza para agregar una imagen de fondo*/
+    background-repeat: no-repeat; /*indicamos que la imagen no se repita*/
+    background-size: cover; /*la imagen cubra el tamaño de la seccion*/
+    background-position: center; /*indicamos la posicion de la imagen*/
+    background-attachment: fixed; /*le indicamos que la imagen quede de fondo de pantalla fija*/
+}
+
+.sec2{
+    background: url("./../img/cuernos_thumb_fb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.sec3{
+    background: url("./../img/taipei-taiwan-cycling-tour@3x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.sectext{
+    height: auto; /*se va acomodar dependiendo del tamaño del titulo y el parrafo*/
+    padding: 50px 100px; /*agregamos un rellen de arriba hacia abajo de 50px y de izq a derecha 100px*/
+
+}
+
+.sectext > h3{
+    margin: 0;
+    padding: 0;
+    font-size: 48px;/*font size se utiliza para poner el tamaño del texto*/
+    color: white; /*color es la etiqueta para ponerle color al texto*/
+}
+
+.sectext > p{
+    font-size: 18px;
+    text-align: justify;
+    color: white;
+}
+
+h1{
+    font-size: 48px;
+    color: white;
+    padding-left: 50px;
+}
