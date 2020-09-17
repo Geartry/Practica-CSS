@@ -1,0 +1,40 @@
+*{
+    padding: 1px;
+    background-color: snow;
+}
+
+a{
+    color: #C30;
+}
+
+#primero > p{
+    color: #369;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#primero > p > em{
+    color: blue;
+    background-color: lightgoldenrodyellow;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.especial{
+    color: yellow;
+    background-color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#segundo{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    color: grey;
+    font-weight: bold;
+}
+
+p{
+    color: #555;
+}

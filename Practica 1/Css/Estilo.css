@@ -12,7 +12,7 @@ section{
 }
 
 .sec1{
-    background: url("./../img/colibri.jpg"); /*se utiliza para agregar una imagen de fondo*/
+    background: url("./../../img/colibri.jpg"); /*se utiliza para agregar una imagen de fondo*/
     background-repeat: no-repeat; /*indicamos que la imagen no se repita*/
     background-size: cover; /*la imagen cubra el tamaño de la seccion*/
     background-position: center; /*indicamos la posicion de la imagen*/
@@ -20,7 +20,7 @@ section{
 }
 
 .sec2{
-    background: url("./../img/cuernos_thumb_fb.jpg");
+    background: url("./../../img/cuernos_thumb_fb.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -28,7 +28,7 @@ section{
 }
 
 .sec3{
-    background: url("./../img/taipei-taiwan-cycling-tour@3x.jpg");
+    background: url("./../../img/taipei-taiwan-cycling-tour@3x.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
