@@ -16,7 +16,7 @@ header{
 
 h1{
     position: absolute;
-    top: 50px;
+    top: 35px;
     left: 40%;
     font-family: "Pangolin", sans-serif; 
     font-size: 40px;
@@ -31,4 +31,92 @@ h1{
     text-transform: uppercase;/*Se utiliza para modificar el texto*/
     font-style: initial;
     text-decoration-line: underline;/*se utiliza para subrayar un texto*/
+}
+
+article{
+    background: lightgreen;
+    width: 85%;
+    height: 80vh;
+    margin: 1px 2px;
+    border: 2px solid white;
+    float: left;
+    position: relative;
+}
+
+article > div > h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 3px 3px;
+    text-transform: uppercase;
+}
+article > div > #subtitulo2{
+    position: absolute;
+    left: 52%;
+    bottom: 92%;
+}
+
+article > div > p{
+    font-size: 17px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    width: 45%;
+    height: 50%;
+    text-align: justify;
+    margin: 10px 10px;
+}
+
+article > div > #parrafo2{
+    position: absolute;
+    left: 52%;
+    bottom: 40%;
+}
+
+article > div > #subtitulo3{
+    position: absolute;
+    top: 55%; 
+}
+
+article > div > #parrafo3{
+    position: absolute;
+    top: 60%;
+}
+
+img{
+    margin: 10px 10px;
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    left: 50%;
+    top: 44%;
+}
+
+aside{
+    width: 10%;
+    height: 60vh;
+    float: left;
+}
+
+#caja1{
+    border: 2px solid white;
+    background: #cccccc;
+    width: 14vw;
+    height: 70vh;
+}
+
+footer{
+    clear: both; /*para limpiar la instruccion que realizamos del footer*/
+    width: 85%;
+    height: 10vh;
+    background: lightgreen;
+    margin: 2px 2px;
+    border: 1px solid white;
+}
+
+h6{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px;
+    font-style: italic;
 }
