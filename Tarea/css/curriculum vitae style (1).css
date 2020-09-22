@@ -1,0 +1,86 @@
+*{
+    margin: 10px 10px;
+    background: darkgray;
+}
+
+header{
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+.caja1{
+position: absolute;
+border: 2px double red;
+width: 70vh;
+}
+
+.caja2{
+    position: absolute;
+    left: 60%;
+    bottom: 71%;
+    border: 1px solid darkgreen;
+    width: 70vh;
+}
+
+.caja3{
+    position: absolute;
+    bottom: 50%;
+    left: 30%;
+    border: 5px dotted goldenrod;
+}
+
+.lista1{
+    font-weight: bold;
+    color: black;
+}
+
+.forma1{
+    color: lawngreen;
+}
+
+.caja1 > label{
+    color: blue;
+    font-size: 25px;
+    position: relative;
+    left: 30%;
+}
+
+.caja2 > label{
+    font-size: 25px;
+    left: 30%;
+    position: relative;
+    color: cyan;
+}
+
+.forma2{
+    color: lawngreen;
+}
+
+.lista2{
+    color: black;
+    font-weight: bold;
+}
+
+.caja3{
+    position: absolute;
+    left: 33%;
+    width: 60vh;
+}
+
+.caja3 > label{
+    font-size: 25px;
+    left: 30%;
+    position: relative;
+    color: darkred;
+}
+
+.forma3{
+    color: lawngreen;
+}
+
+.lista3{
+    color: black;
+    font-weight: bold;
+}

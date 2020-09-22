@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.desliz{
+    width: 100%;
+    height: 100%;
+    background: black;
+    margin: auto;
+    overflow: hidden; 
+}
+
+.desliz > ul{
+    display: flex;
+    padding: 0;
+    width: 800%;
+    animation: deslice 15s infinite alternate;
+}
+
+.desliz > ul > li{
+    width: 100%;
+    list-style: none;
+} 
+
+.desliz > ul > li > img{
+    width: 100%;
+}
+
+@keyframes deslice{
+    0%{
+        margin-left: 0%;
+    }
+
+    10%{
+        margin-left: 0%;
+    }
+
+    12.5%{
+        margin-left: -100%;
+    }
+    
+    22.5%{
+        margin-left: -100%;
+    }
+
+    25%{
+        margin-left: -200%;
+    }
+
+    35%{
+        margin-left: -200%;
+    }
+
+    37.5%{
+        margin-left: -300%;
+    }
+
+    47.5%{
+        margin-left: -300%;
+    }
+
+    50%{
+        margin-left: -400%;
+    }
+
+    60%{
+        margin-left: -400%;   
+    }
+
+    62.5%{
+        margin-left: -500%;
+    }
+
+    72.5%{
+        margin-left: -500%;
+    }
+
+    75%{
+        margin-left: -600%;
+    }
+
+    85%{
+        margin-left: -600%;
+    }
+
+    87.5%{
+        margin-left: -700%;
+    }
+
+    100%{
+        margin-left: -700%;
+    }
+
+}

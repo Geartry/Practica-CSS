@@ -1,0 +1,38 @@
+*{
+    margin: 5px 6px;
+    background: lightblue;
+}
+
+header{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.caja1{
+    height: 80vh;
+    width: 30%;
+    border: maroon 2px solid;
+    font-size: 30px;
+}
+
+.caja2{
+    position: absolute;
+    left: 32%;
+    bottom: 8vh;
+    width: 30%;
+    border: cornsilk 2px solid;
+    height: 80vh;
+    font-size: 30px;
+}
+
+.caja3{
+    position: absolute;
+    left: 64%;
+    border: purple 2px solid;
+    bottom: 8vh;
+    height: 80vh;
+    width: 30%;
+    font-size: 30px;
+}
