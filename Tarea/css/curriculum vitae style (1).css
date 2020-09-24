@@ -84,3 +84,8 @@ width: 70vh;
     color: black;
     font-weight: bold;
 }
+
+.mayus::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
