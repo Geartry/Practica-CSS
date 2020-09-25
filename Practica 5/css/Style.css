@@ -128,3 +128,71 @@ flex-wrap: wrap;
     padding: 20px;
     font-size: 20px;
 }
+
+#subtitulo3{
+    text-align: end;
+}
+
+#flexend{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+#flexend > div{
+    background: black;
+    width: 30px;
+    height: 30px;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.spacearound{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.spacearound > div{
+    background: black;
+    width: 30px;
+    height: 30px;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.spacebetween{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.spacebetween > div{
+    background: black;
+    width: 30px;
+    height: 30px;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.spaceevenly{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.spaceevenly > div{
+    background: black;
+    width: 30px;
+    height: 30px;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
