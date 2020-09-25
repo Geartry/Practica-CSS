@@ -16,13 +16,6 @@ h1::first-letter{
     font-style: italic;
 }
 
-/*se crea una clase titulos, donde se van a acomodar dos subtitulos de manera horizontal*/
-.titulos{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
-
 /*se crea una clase titulos, donde se van a acomodar dos textos de manera horizontal*/
 .flex{
     display: flex;
@@ -36,7 +29,7 @@ h1::first-letter{
     width: 20px;
     height: 20px;
     color: white;
-    margin: 5px 0px;
+    margin: 5px;
     padding: 20px;
     font-size: 20px;
 }
@@ -54,8 +47,84 @@ h1::first-letter{
     height: 20px;
     background: black;
     color: white;
-    margin: 5px 0;
+    margin: 5px ;
     padding: 20px;
     font-size: 20px;
+}
 
+/*display flex ep para indicar que se va a empezar a utilizar el comando flex*/
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flexrow > .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+.flex > .row-reverse{
+display: flex;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+}
+
+.flexrow > .row > div{
+    background: black;
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin: 5px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.flexrow > .row-reverse > div{
+    background: black;
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin: 5px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#titulo{
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+ 
+.center > div{
+    background: black;
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin: 5px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.flex-start{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.flex-start > div{
+    background: black;
+    width: 30px;
+    height: 30px;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
 }
