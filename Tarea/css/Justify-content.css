@@ -1,0 +1,129 @@
+*{
+    background: lightgray;
+    margin: 10px;
+}
+
+header{
+    font-size: 40px;
+}
+
+p{
+    font-size: 35px;
+    color: gray;
+    width: 350px;
+}
+
+.box1{
+    height: 100px;
+    width: 400px;
+    background: white;
+    position: absolute;
+    left: 35%;
+    bottom: 81%;
+    display: flex;
+    justify-content: start;
+}
+
+.titulo{
+    font-size: 30px;
+    position: absolute;
+    left: 45%;
+    bottom: 75%;
+}
+
+span{
+    position: absolute;
+    font-size: 20px;
+    left: 46.5%;
+    bottom: 72%;
+}
+
+.box2{
+    height: 100px;
+    width: 400px;
+    background: white;
+    position: absolute;
+    bottom: 55%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo2{
+    font-size: 30px;
+    position: absolute;
+    bottom: 50%;
+    left: 11%;
+}
+
+.box3{
+    height: 100px;
+    width: 400px;
+    background: white;
+    position: absolute;
+    left: 35%;
+    bottom: 55%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titulo3{
+    font-size: 30px;
+    position: absolute;
+    bottom: 50%;
+    left: 46%;
+}
+
+.box4{
+    height: 100px;
+    width: 400px;
+    background: white;
+    position: absolute;
+    bottom: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo4{
+    font-size: 30px;
+    position: absolute;
+    bottom: 20%;
+    left: 9%;
+}
+
+.box5{
+    height: 100px;
+    width: 400px;
+    background: white;
+    position: absolute;
+    left: 35%;
+    bottom: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo5{
+    font-size: 30px;
+    position: absolute;
+    bottom: 20%;
+    left: 43%;
+}
+
+
+
+.purple{
+    background: rgb(189, 4, 149);
+    width: 90px;
+    height: 82px;
+}
+
+.cyan{
+    background: darkcyan;
+    width: 90px;
+    height: 82px;
+}
+
+.rose{
+    background: lightcoral;
+    width: 70px;
+    height: 82px;
+}
