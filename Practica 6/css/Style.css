@@ -1,0 +1,700 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.titulo > h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #5d0985;
+    text-transform: capitalize;
+    margin-top: 1%;
+}
+
+.fila{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.cuadromorado{
+    width: 30%;
+    height: 20vh;
+    background: rgb(124, 53, 218);
+    border: 2px solid black;
+}
+
+.flex-start{
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+
+.cuadromorado > .flex-start > .cuadro1{
+    width: 23%;
+    height: 50px;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 2% 1%;
+}
+
+.cuadromorado > .flex-start > .cuadro2{
+    width: 23%;
+    height: 70px;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 2% 1%;
+}
+
+.cuadromorado > .flex-start > .cuadro3{
+    width: 23%;
+    height: 25px;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 2% 1%;
+}
+
+.cuadromorado > .flex-start > .cuadro4{
+    width: 23%;
+    height: 45px;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 2% 1%;
+}
+
+.cuadromorado > .flex-end{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+.cuadromorado > .flex-end > .cuadro1{
+    width: 23%;
+    height: 50px;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 15% 1%;
+}
+.cuadromorado > .flex-end > .cuadro2{
+    width: 23%;
+    height: 70px;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 15% 1%;
+}
+.cuadromorado > .flex-end > .cuadro3{
+    width: 23%;
+    height: 20px;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 15% 1%;
+}
+.cuadromorado > .flex-end > .cuadro4{
+    width: 23%;
+    height: 45px;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 15% 1%;
+}
+
+.cuadromorado > .center{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.cuadromorado > .center > .cuadro1{
+    width: 23%;
+    height: 50px;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 8% 1%;
+}
+
+.cuadromorado > .center > .cuadro2{
+    width: 23%;
+    height: 70px;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 8% 1%;
+}
+
+.cuadromorado > .center > .cuadro3{
+    width: 23%;
+    height: 20px;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 8% 1%;
+}
+
+.cuadromorado > .center > .cuadro4{
+    width: 23%;
+    height: 45px;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 8% 1%;
+}
+
+.cuadromorado > .strech{
+    display: flex;
+    align-items: stretch;
+    flex-flow: row wrap;
+}
+
+.cuadromorado > .strech > .cuadro1{
+    width: 23%;
+    height: 18vh;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .strech > .cuadro2{
+    width: 23%;
+    height: 18vh;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .strech > .cuadro3{
+    width: 23%;
+    height: 18vh;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .strech > .cuadro4{
+    width: 23%;
+    height: 18vh;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorados{
+    width: 70%;
+    height: 20vh;
+    background: rgb(124, 53, 218);
+    border: 2px solid black;
+}
+
+.cuadromorados > .baseline{
+    display: flex;
+    align-items: baseline;
+    flex-flow: row wrap;
+}
+
+.cuadromorados > .baseline > .cuadro1{
+    width: 23%;
+    height: 16vh;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cuadromorados > .baseline > .cuadro2{
+    width: 23%;
+    height: 7vh;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.cuadromorados > .baseline > .cuadro3{
+    width: 23%;
+    height: 16vh;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cuadromorados > .baseline > .cuadro4{
+    width: 23%;
+    height: 12vh;
+    background: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.fila2{
+   position: relative;
+   left: 15%;
+}
+
+.cuadromorado > .flexstart{
+    display: flex;
+    align-content: flex-start;
+    flex-flow: row wrap;
+}
+
+.cuadromorado > .flexstart > .cuadro1{
+    height: 25px;
+    width: 23%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstart > .cuadro2{
+    height: 25px;
+    width: 40%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstart > .cuadro3{
+    height: 25px;
+    width: 27%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstart > .cuadro4{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstart > .cuadro5{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstart > .cuadro6{
+    height: 25px;
+    width: 30%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstart > .cuadro7{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstart > .cuadro8{
+    height: 25px;
+    width: 25%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstart > .cuadro9{
+    height: 25px;
+    width: 30%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    margin: 10% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro1{
+    height: 25px;
+    width: 23%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro2{
+    height: 25px;
+    width: 40%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro3{
+    height: 25px;
+    width: 27%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro4{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro5{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro6{
+    height: 25px;
+    width: 30%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro7{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro8{
+    height: 25px;
+    width: 25%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro9{
+    height: 25px;
+    width: 30%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexcenter{
+    display: flex;
+    align-content: center;
+    flex-flow: row wrap;
+    margin: 5% 0%;
+}
+
+.cuadromorado > .flexcenter > .cuadro1{
+    height: 25px;
+    width: 23%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+.cuadromorado > .flexcenter > .cuadro2{
+    height: 25px;
+    width: 40%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+.cuadromorado > .flexcenter > .cuadro3{
+    height: 25px;
+    width: 27%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+.cuadromorado > .flexcenter > .cuadro4{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+.cuadromorado > .flexcenter > .cuadro5{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+.cuadromorado > .flexcenter > .cuadro6{
+    height: 25px;
+    width: 30%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+.cuadromorado > .flexcenter > .cuadro7{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+.cuadromorado > .flexcenter > .cuadro8{
+    height: 25px;
+    width: 25%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+.cuadromorado > .flexcenter > .cuadro9{
+    height: 25px;
+    width: 30%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstrech{
+    display: flex;
+    align-content: stretch;
+    flex-flow: row wrap;
+}
+
+.cuadromorado > .flexstrech > .cuadro1{
+    height: 40px;
+    width: 23%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstrech > .cuadro2{
+    height: auto;
+    width: 40%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstrech > .cuadro3{
+    height: auto;
+    width: 27%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstrech > .cuadro4{
+    height: 40px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstrech > .cuadro5{
+    height: auto;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstrech > .cuadro6{
+    height: auto;
+    width: 30%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstrech > .cuadro7{
+    height: auto;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstrech > .cuadro8{
+    height: 40px;
+    width: 25%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstrech > .cuadro9{
+    height: auto;
+    width: 30%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .space-between{
+    display: flex;
+    align-content: space-between;
+    flex-flow: row wrap;
+}
+
+.cuadromorado > .space-between > .cuadro1{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .space-between > .cuadro2{
+    height: 25px;
+    width: 40%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .space-between > .cuadro3{
+    height: 25px;
+    width: 27%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .space-between > .cuadro4{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 6% 1%;
+}
+
+.cuadromorado > .space-between > .cuadro5{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 6% 1%;
+}
+
+.cuadromorado > .space-between > .cuadro6{
+    height: 25px;
+    width: 30%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 6% 1%;
+}
+
+.cuadromorado > .space-between > .cuadro7{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 6% 1%;
+}
+
+.cuadromorado > .space-between > .cuadro8{
+    height: 25px;
+    width: 25%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .space-between > .cuadro9{
+    height: 25px;
+    width: 30%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .space-around{
+    display: flex;
+    align-content: space-around;
+    flex-flow: row wrap;
+}
+
+.cuadromorado > .space-around .cuadro1{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 3% 1%;
+}
+
+.cuadromorado > .space-around .cuadro2{
+    height: 25px;
+    width: 40%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 3% 1%;
+}
+
+.cuadromorado > .space-around .cuadro3{
+    height: 25px;
+    width: 27%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 3% 1%;
+}
+
+.cuadromorado > .space-around .cuadro4{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 3% 1%;
+}
+
+.cuadromorado > .space-around .cuadro5{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 3% 1%;
+}
+
+.cuadromorado > .space-around .cuadro6{
+    height: 25px;
+    width: 30%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 3% 1%;
+}
+
+.cuadromorado > .space-around .cuadro7{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 3% 1%;
+}
+
+.cuadromorado > .space-around .cuadro8{
+    height: 25px;
+    width: 25%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 2% 1%;
+}
+
+.cuadromorado > .space-around .cuadro9{
+    height: 25px;
+    width: 30%;
+    background-color: rgb(245, 68, 15);
+    border: 2px solid black;
+    margin: 2% 1%;
+}

@@ -32,6 +32,8 @@ h1::first-letter{
     margin: 5px;
     padding: 20px;
     font-size: 20px;
+    line-height: 30px; /*acomodar de manera vertical del texto*/
+    text-align: center;
 }
 
 .flex > .columnareversa{
@@ -50,6 +52,8 @@ h1::first-letter{
     margin: 5px ;
     padding: 20px;
     font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
 
 /*display flex ep para indicar que se va a empezar a utilizar el comando flex*/
@@ -81,6 +85,8 @@ flex-wrap: wrap;
     margin: 5px;
     padding: 20px;
     font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .flexrow > .row-reverse > div{
@@ -91,6 +97,8 @@ flex-wrap: wrap;
     margin: 5px;
     padding: 20px;
     font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
 
 #titulo{
@@ -111,6 +119,8 @@ flex-wrap: wrap;
     margin: 5px;
     padding: 20px;
     font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .flex-start{
@@ -127,6 +137,8 @@ flex-wrap: wrap;
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
 
 #subtitulo3{
@@ -147,6 +159,8 @@ flex-wrap: wrap;
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .spacearound{
@@ -163,6 +177,8 @@ flex-wrap: wrap;
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .spacebetween{
@@ -179,6 +195,8 @@ flex-wrap: wrap;
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .spaceevenly{
@@ -195,4 +213,6 @@ flex-wrap: wrap;
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
