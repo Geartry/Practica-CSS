@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fila{
+  display: flex;
+  justify-content: start;
+}
+
+.fila > .insta{
+font-size: 200px;
+color: white;
+background-color: magenta;
+}
+
+.fila > .twit{
+font-size: 200px;
+color: white;
+background-color: skyblue;
+}
+
+.fila > .youtu{
+font-size: 200px;
+color: white;
+background-color: red;
+}
+
+.fila > .pint{
+font-size: 200px;
+color: white;    
+background-color: red;
+}
+
+.fila > .face{
+    font-size: 325px;
+    color: blue;
+    background-color: blue;
+    
+}
+
+.fila > .in{
+    font-size: 233px;
+    color: white;
+    background-color: rgb(25, 107, 139);
+}
+
+.fila > .snap{
+    font-size: 184px;
+    background-color: yellow;
+    color: white;
+}
+
+.fila > .phone{
+font-size: 237px; 
+color: white;
+background-color: purple;   
+}
+
+.fila > .gog{
+font-size: 233px;
+color: white;
+background-color: red;
+}
+
+a > .fa:hover{
+    color: white;
+}
+
+.fila > .fac:hover{
+    color: blue;
+}

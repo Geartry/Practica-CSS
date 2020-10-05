@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(32, 130, 221);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2%;
+    color: rgb(43, 38, 43);
+}
+
+a > .fa{
+    font-size: 35px;
+    padding: 3% 3%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+/*se le da um estilo especific a cualquier etiqueta*/
+a > .fa:hover{
+    color: red;
+}
