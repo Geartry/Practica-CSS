@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fila{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cuadro{
+    margin: 20px 30px;
+    width: 14%; 
+    height: 42.7vh;
+    border: solid 1px darkcyan; 
+}
+
+.cyan{
+    background-color: rgb(5, 179, 179);
+    text-align: center;
+}
+
+.p1{
+    font-size: 30px;
+    color: white;
+}
+
+.p2{
+    color: white;
+    font-size: 20px;
+}
+
+.cyannegro{
+   background-color: darkcyan;
+   height: 1vh;
+   width: 100%;
+}
+
+.cuadro > .texto{
+    text-align: center;
+    margin: 5%;
+    height: 15vh;
+    font-size: 14px;
+}
+
+.cuadro > .texto > p{
+    margin: 8% 2%;
+}
+
+span{
+    font-weight: bolder;
+}
+
+.boton{
+    height: 10vh;
+    border-top: dotted 1px ;
+    text-align: center;
+    margin-top: 46px;
+}
+
+button{
+    margin-top: 17px;
+    width: 50%;
+    height: 5vh;
+}
+
+button:hover{
+   background-color: rgb(5, 179, 179);
+   color: white;
+}
+
+.naranja{
+    background-color: darkorange;
+    text-align: center;
+}
+
+.naranjaoscuro{
+    background-color: rgb(179, 99, 2);
+    height: 1vh;
+}
+
+#c2{
+    border-color: darkorange;
+}
+
+#b2:hover{
+    background: darkorange;
+}
+
+.rojo{
+    background-color: red;
+    text-align: center;
+}
+
+.rojooscuro{
+    background-color: rgb(160, 4, 4);
+    height: 1.1vh;
+}
+
+#c3{
+    border-color: red;
+}
+
+#b3:hover{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+    text-align: center;
+}
+
+.azuloscuro{
+    background-color: rgb(2, 2, 175);
+    height: 1.1vh;
+}
+
+#c4{
+    border-color: blue;
+}
+
+#b4:hover{
+    background-color: blue;
+}
