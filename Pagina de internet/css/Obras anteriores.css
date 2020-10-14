@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+span{
+    color: turquoise;
+}
+
+.menu > ul{
+    display: flex;
+    margin: 60px 10px;
+    width: 50%;
+    height: 7vh;
+    justify-content: space-evenly;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    color: white;
+    list-style: none;
+}
+
+.menu > ul > li{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.menu > ul > li > ul{
+    display: none;
+   
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu > ul > li > a:hover{
+    color: turquoise;
+}
+
+.menu > ul > li:hover > ul{
+    display: block;
+    margin: 18% 1%;
+    list-style: none;
+    text-align: center;
+}
+
+.menu > ul > li:hover > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.menu > ul > li:hover > ul > li > a:hover{
+    color: turquoise;
+}
+
+
+#f2{
+    border-color: turquoise;
+}
+
+#f2 > li > p{
+    color: white;
+}
+
+#f2 > li > p > a{
+    color: white;
+}
+
+#c1{
+    position: relative;
+    left: 650%;
+}  
+
+.fa:hover{
+    color: white;
+}
+
+.img > img{
+    position: relative;
+    height: 550px;
+    width: 715px;
+    bottom: -8.5%;
+    
+ 
+}
+
+
+
+li{
+    color: turquoise;
+    list-style: none;
+}
+
+.menu > p{
+    color: white;
+    width: 38%;
+    margin: 1px 15px;
+    margin-bottom: 20px;
+}
+
+.s-img > img{
+    height: 80px;
+    width: 100px;
+}
+
+.s-img{
+    display: flex;
+    justify-content: center;
+    margin: 1% 10%;
+}
+
+.img{
+    display: flex;
+    width: 200%;
+    animation: carrusel 20s alternate infinite;
+}
+
+@keyframes carrusel{
+    0%{
+        margin-left: -30%;
+    }
+    
+    20%{
+        margin-left: -60%;
+    }
+
+    40%{
+        margin-left: -90%;
+    }
+
+    60%{
+        margin-left: -120%;
+    }
+
+    80%{
+        margin-left: -150%;
+    }
+
+    100%{
+        margin-left: -180%;
+    }
+}
